@@ -1,10 +1,10 @@
-var nm = 4;
+var nm = 3;
 var sobra = function (x1) {
     if (x1 % 2 == 0) {
-        console.log("Par");
+        return true;
     }
     else {
-        console.log("Impar");
+        return false;
     }
 };
-sobra(nm);
+console.log(sobra(nm));

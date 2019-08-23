@@ -1,12 +1,11 @@
-let nm: number =4
-let sobra = function(x1: number) : void{
+let nm: number =3
+let sobra = function(x1: number) : boolean{
     if (x1 %2 == 0){
-        console.log ("Par")
+       return true
     }
     else{
-
-        console.log ("Impar")
+        return false
     }
 }
 
-sobra(nm)
+console.log(sobra(nm)) 
