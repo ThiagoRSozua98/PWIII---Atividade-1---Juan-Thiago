@@ -8,4 +8,4 @@ let sobra = function(x1: number) : boolean{
     }
 }
 
-console.log(sobra(nm)) 
+console.log(sobra(nm))  
