@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var Piscina = /** @class */ (function () {
     function Piscina() {
     }
@@ -12,6 +14,7 @@ var Piscina = /** @class */ (function () {
     };
     return Piscina;
 }());
+exports.Piscina = Piscina;
 //let ttpiscina =  new Piscina()
 //ttpiscina.diametro = 6
 //ttpiscina.custoConstrucao = 75

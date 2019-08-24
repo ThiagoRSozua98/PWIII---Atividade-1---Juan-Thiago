@@ -1,4 +1,4 @@
-class Piscina {
+export class Piscina {
     diametro: number
     custoConstrucao: number
 
