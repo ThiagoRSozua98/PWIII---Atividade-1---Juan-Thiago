@@ -5,6 +5,7 @@ export let sobra = function(x1: number) : boolean{
     else{
         return false
     }
+}
 
     export let calcArea = function(lagA: number , comB: number): number{
         return lagA * comB
@@ -13,4 +14,3 @@ export let sobra = function(x1: number) : boolean{
     export let calcubo = (numero: number) => {
         return Math.pow (numero, 3)
     }
-    
